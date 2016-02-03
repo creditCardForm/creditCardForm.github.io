@@ -11,37 +11,12 @@
 	<div>
 		<input name='ccNumber' class='ccNumberInputField' type='text' maxlength="16" pattern="[0-9]*" placeholder='Credit Card Number'>
 	</div>
-
-
-	<select id="cardExpirationMonth">
-	  <option value="01">01</option>
-	  <option value="02">02</option>
-	  <option value="02">03</option>
-	  <option value="02">04</option>
-	  <option value="02">05</option>
-	  <option value="02">06</option>
-	  <option value="02">07</option>
-	  <option value="02">08</option>
-	  <option value="02">09</option>
-	  <option value="02">10</option>
-	  <option value="11">11</option>
-	  <option value="12">12</option>
-	</select>
-
-
-	<select id="cardExpirationYear">
-	  <option value="2015">2016</option>
-	  <option value="2015">2017</option>
-	  <option value="2015">2018</option>
-	  <option value="2015">2019</option>
-	  <option value="2015">2020</option>
-	  <option value="2015">2021</option>
-	  <option value="2015">2022</option>
-	  <option value="2015">2023</option>
-	  <option value="2024">2024</option>
-	  <option value="2025">2025</option>
-	</select>
-
+	<div>
+		<input name='ccMonth' type='number' placeholder='MM' id="cardExpirationMonth">
+	</div>
+	<div>
+		<input name='ccYear' type='number' placeholder='YY' id="cardExpirationYear">
+	</div>
 	<div>
 		<input name='ccCVC' type='number' placeholder='CVC'>
 	</div>
